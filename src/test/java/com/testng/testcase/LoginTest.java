@@ -1,5 +1,7 @@
 package com.testng.testcase;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -32,7 +34,7 @@ public class LoginTest extends BaseTest {
 
 	@Test
 
-	public void validlogin() {
+	public void validlogin_tc02() {
 		login.enterusername("harita@shroff.com");
 		login.enterpassword("@2Lovebug");
 		login.clickonlogin();
@@ -45,11 +47,48 @@ public class LoginTest extends BaseTest {
 		login.enterpassword("@3Lovebug");
 		login.clickonlogin();
 	}
+	
 
+	@Test
+
+	public void loginwithoutpassword_tc01() {
+		login.enterusername("harita@shroff.com");
+		login.clickonlogin();
+	}
+
+	@Test
+
+	public void loginrememberme_tc03() {
+		login.enterusername("harita@shroff.com");
+		login.enterpassword("@2Lovebug");
+		login.clickonRememberMe();
+		login.clickonlogin();
+		login.clickonUserMenuDropDown();
+		login.clickonLogout();
+	}
+
+	@Test
+	
+	public void forgotpassword_tc04a() {
+		login.clickonForgotPassowrd();
+		login.enterUsernameonForogtPassword();
+		login.clickonContinue();
+	}
+	
+	@Test
+
+	public void forgotpassword_tc04b() {
+		login.enterusername("123");
+		login.enterpassword("22131");
+		login.clickonlogin();
+	}
+	
+	
+	
 	@AfterMethod
-	public void teardown() {
-
-		screenshot.takescreenshot(driver);
+	public void teardown() throws InterruptedException {
+		//TimeUnit.SECONDS.sleep(10);
+		//screenshot.takescreenshot(driver);
 		closebrowser();
 	}
 }

@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T15:33:28 PST" name="Automation" finished-at="2024-12-14T15:34:24 PST" duration-ms="55683">
+  <suite started-at="2024-12-23T01:07:05 PST" name="Automation" finished-at="2024-12-23T01:07:34 PST" duration-ms="29823">
     <groups>
     </groups>
-    <test started-at="2024-12-14T15:33:28 PST" name="Login" finished-at="2024-12-14T15:34:24 PST" duration-ms="55683">
+    <test started-at="2024-12-23T01:07:05 PST" name="Login" finished-at="2024-12-23T01:07:34 PST" duration-ms="29823">
       <class name="com.testng.testcase.HomeTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.HomeTest@78e117e3]" started-at="2024-12-14T15:34:04 PST" name="beforeMethod" finished-at="2024-12-14T15:34:11 PST" duration-ms="6535" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.HomeTest@78e117e3]" started-at="2024-12-23T01:07:21 PST" name="beforeMethod" finished-at="2024-12-23T01:07:24 PST" duration-ms="3061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="clickonhomebutton()[pri:0, instance:com.testng.testcase.HomeTest@78e117e3]" started-at="2024-12-14T15:34:11 PST" name="clickonhomebutton" finished-at="2024-12-14T15:34:24 PST" duration-ms="12611" status="PASS">
+        <test-method signature="clickonhomebutton()[pri:0, instance:com.testng.testcase.HomeTest@78e117e3]" started-at="2024-12-23T01:07:24 PST" name="clickonhomebutton" finished-at="2024-12-23T01:07:34 PST" duration-ms="9848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonhomebutton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.HomeTest@78e117e3]" started-at="2024-12-14T15:34:24 PST" name="teardown" finished-at="2024-12-14T15:34:24 PST" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.HomeTest@78e117e3]" started-at="2024-12-23T01:07:34 PST" name="teardown" finished-at="2024-12-23T01:07:34 PST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.testng.testcase.HomeTest -->
       <class name="com.testng.testcase.LoginTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-14T15:33:28 PST" name="beforeMethod" finished-at="2024-12-14T15:33:39 PST" duration-ms="10967" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-23T01:07:05 PST" name="beforeMethod" finished-at="2024-12-23T01:07:09 PST" duration-ms="4057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginwithinvalidpassword()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-14T15:33:39 PST" name="loginwithinvalidpassword" finished-at="2024-12-14T15:33:43 PST" duration-ms="3931" status="PASS">
+        <test-method signature="loginwithinvalidpassword()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-23T01:07:09 PST" name="loginwithinvalidpassword" finished-at="2024-12-23T01:07:10 PST" duration-ms="1259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithinvalidpassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-14T15:33:43 PST" name="teardown" finished-at="2024-12-14T15:33:46 PST" duration-ms="2482" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-23T01:07:10 PST" name="teardown" finished-at="2024-12-23T01:07:11 PST" duration-ms="594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-14T15:33:46 PST" name="beforeMethod" finished-at="2024-12-14T15:33:52 PST" duration-ms="6339" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-23T01:07:11 PST" name="beforeMethod" finished-at="2024-12-23T01:07:13 PST" duration-ms="2526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validlogin()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-14T15:33:52 PST" name="validlogin" finished-at="2024-12-14T15:34:03 PST" duration-ms="10685" status="PASS">
+        <test-method signature="validlogin()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-23T01:07:13 PST" name="validlogin" finished-at="2024-12-23T01:07:21 PST" duration-ms="7637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-14T15:34:03 PST" name="teardown" finished-at="2024-12-14T15:34:04 PST" duration-ms="1663" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LoginTest@45b9a632]" started-at="2024-12-23T01:07:21 PST" name="teardown" finished-at="2024-12-23T01:07:21 PST" duration-ms="592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

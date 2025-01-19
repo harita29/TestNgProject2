@@ -1,4 +1,5 @@
 package com.testng.pages;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,10 +19,26 @@ public class LoginPage extends BasePage {
 	@FindBy(id = "Login")
 	WebElement login;
 	
-	public LoginPage(WebDriver driver) {
-		
+	@FindBy(xpath = "//input[@name='rememberUn']")
+	WebElement rememberme;
+	
+	@FindBy(id = "userNav")
+	WebElement usermenudropdown;
+
+	@FindBy(xpath = "//a[@title='Logout']")
+	WebElement logoutbutton;
+	
+	@FindBy(id = "forgot_password_link")
+	WebElement forgotpassword;
+	
+	@FindBy(id = "un")
+	WebElement forgotusername;
+	
+	@FindBy(id = "continue")
+	WebElement cont;
+	
+	public LoginPage(WebDriver driver) {	
 		super(driver);
-		
 	}
 	public void enterusername(String strUsername) {
 		waitforElement(username);
@@ -32,5 +49,23 @@ public class LoginPage extends BasePage {
 	}
 	public void clickonlogin() {
 		login.click();
+	}
+	public void clickonRememberMe() {
+		rememberme.click();
+	}
+	public void clickonUserMenuDropDown() {
+		usermenudropdown.click();
+	}
+	public void clickonLogout() {
+		logoutbutton.click();
+	}
+	public void clickonForgotPassowrd() {
+		forgotpassword.click();
+	}
+	public void clickonContinue() {
+		cont.click();
+	}
+	public void enterUsernameonForogtPassword() {
+		forgotusername.sendKeys("harita@shroff.com");
 	}
 }
