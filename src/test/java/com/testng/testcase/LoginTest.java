@@ -58,11 +58,12 @@ public class LoginTest extends BaseTest {
 
 	@Test
 
-	public void loginrememberme_tc03() {
+	public void loginrememberme_tc03() throws InterruptedException {
 		login.enterusername("harita@shroff.com");
 		login.enterpassword("@2Lovebug");
 		login.clickonRememberMe();
 		login.clickonlogin();
+		TimeUnit.SECONDS.sleep(10);
 		login.clickonUserMenuDropDown();
 		login.clickonLogout();
 	}

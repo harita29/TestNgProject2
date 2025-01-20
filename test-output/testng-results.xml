@@ -1,25 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-12T12:20:06 PST" name="Default suite" finished-at="2025-01-12T12:20:32 PST" duration-ms="25674">
+  <suite started-at="2025-01-19T16:22:58 PST" name="Automation" finished-at="2025-01-19T16:24:03 PST" duration-ms="64923">
     <groups>
     </groups>
-    <test started-at="2025-01-12T12:20:06 PST" name="Default test" finished-at="2025-01-12T12:20:32 PST" duration-ms="25674">
-      <class name="com.testng.testcase.LeadsTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LeadsTest@130161f7]" started-at="2025-01-12T12:20:06 PST" name="beforeMethod" finished-at="2025-01-12T12:20:17 PST" duration-ms="11076" status="PASS">
+    <test started-at="2025-01-19T16:22:58 PST" name="Login" finished-at="2025-01-19T16:24:03 PST" duration-ms="64923">
+      <class name="com.testng.testcase.HomeTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.HomeTest@47af7f3d]" started-at="2025-01-19T16:23:52 PST" name="beforeMethod" finished-at="2025-01-19T16:23:55 PST" duration-ms="3417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="CreateOpty_TC22()[pri:0, instance:com.testng.testcase.LeadsTest@130161f7]" started-at="2025-01-12T12:20:17 PST" name="CreateOpty_TC22" finished-at="2025-01-12T12:20:27 PST" duration-ms="9309" status="PASS">
+        <test-method signature="clickonhomebutton()[pri:0, instance:com.testng.testcase.HomeTest@47af7f3d]" started-at="2025-01-19T16:23:55 PST" name="clickonhomebutton" finished-at="2025-01-19T16:24:02 PST" duration-ms="7488" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateOpty_TC22 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LeadsTest@130161f7]" started-at="2025-01-12T12:20:27 PST" name="teardown" finished-at="2025-01-12T12:20:32 PST" duration-ms="5246" status="PASS">
+        </test-method> <!-- clickonhomebutton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.HomeTest@47af7f3d]" started-at="2025-01-19T16:24:02 PST" name="teardown" finished-at="2025-01-19T16:24:03 PST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.testng.testcase.LeadsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.testng.testcase.HomeTest -->
+      <class name="com.testng.testcase.LoginTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:22:58 PST" name="beforeMethod" finished-at="2025-01-19T16:23:04 PST" duration-ms="6557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="forgotpassword_tc04a()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:04 PST" name="forgotpassword_tc04a" finished-at="2025-01-19T16:23:06 PST" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpassword_tc04a -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:06 PST" name="teardown" finished-at="2025-01-19T16:23:06 PST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:06 PST" name="beforeMethod" finished-at="2025-01-19T16:23:10 PST" duration-ms="3693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="forgotpassword_tc04b()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:10 PST" name="forgotpassword_tc04b" finished-at="2025-01-19T16:23:12 PST" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpassword_tc04b -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:12 PST" name="teardown" finished-at="2025-01-19T16:23:12 PST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:12 PST" name="beforeMethod" finished-at="2025-01-19T16:23:15 PST" duration-ms="3348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginrememberme_tc03()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:15 PST" name="loginrememberme_tc03" finished-at="2025-01-19T16:23:31 PST" duration-ms="15685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginrememberme_tc03 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:31 PST" name="teardown" finished-at="2025-01-19T16:23:31 PST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:31 PST" name="beforeMethod" finished-at="2025-01-19T16:23:34 PST" duration-ms="3405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginwithinvalidpassword()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:34 PST" name="loginwithinvalidpassword" finished-at="2025-01-19T16:23:36 PST" duration-ms="1740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:36 PST" name="teardown" finished-at="2025-01-19T16:23:36 PST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:36 PST" name="beforeMethod" finished-at="2025-01-19T16:23:41 PST" duration-ms="4718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginwithoutpassword_tc01()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:41 PST" name="loginwithoutpassword_tc01" finished-at="2025-01-19T16:23:42 PST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithoutpassword_tc01 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:42 PST" name="teardown" finished-at="2025-01-19T16:23:43 PST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:43 PST" name="beforeMethod" finished-at="2025-01-19T16:23:46 PST" duration-ms="3610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validlogin_tc02()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:46 PST" name="validlogin_tc02" finished-at="2025-01-19T16:23:51 PST" duration-ms="4954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin_tc02 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcase.LoginTest@130161f7]" started-at="2025-01-19T16:23:51 PST" name="teardown" finished-at="2025-01-19T16:23:52 PST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.testcase.LoginTest -->
+    </test> <!-- Login -->
+  </suite> <!-- Automation -->
 </testng-results>

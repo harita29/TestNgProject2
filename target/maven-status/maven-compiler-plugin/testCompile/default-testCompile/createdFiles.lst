@@ -1,4 +1,16 @@
-com/testng/pages/HomePage.class
+com/testng/testcase/UsermenuDropdownTest.class
 com/testng/testcase/HomeTest.class
 com/testng/testcase/LoginTest.class
+com/testng/pages/CreateaccountPage.class
+com/testng/testcase/CreateOptyTest.class
+com/testng/pages/UsermenuDropDownPage.class
+com/testng/pages/CreateOptyPage.class
+com/testng/testcase/RandScenTest.class
+com/testng/testcase/LeadsTest.class
+com/testng/testcase/CreateaccountTest.class
+com/testng/pages/LeadsPage.class
 com/testng/pages/LoginPage.class
+com/testng/pages/HomePage.class
+com/testng/pages/RandScenPage.class
+com/testng/pages/ContactsPage.class
+com/testng/testcase/ContactTest.class
